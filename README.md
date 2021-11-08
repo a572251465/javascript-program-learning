@@ -10,4 +10,8 @@
   5. interfaceof判断基本类型<hasInstance-impl>
   6. 重写instanceof<instanceof-impl>
   7. 实现防抖<debounce-impl>
+  8. 实现节流<throttle-impl>
+  9. 实现了数组去重<数组去重-impl>
+  10. for..of实现方案<forof-impl>
+  11. 迭代器实现方案<forof-impl>
 ```
