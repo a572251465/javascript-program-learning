@@ -14,4 +14,5 @@
   9. 实现了数组去重<数组去重-impl>
   10. for..of实现方案<forof-impl>
   11. 迭代器实现方案<forof-impl>
+  12. Object.create实现方式 <object.create-impl>
 ```

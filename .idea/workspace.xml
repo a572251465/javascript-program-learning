@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd3b51a8-a16d-4a0a-9f09-a6883d04d891" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode-83-链表/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode-83-链表/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/throttle-impl/hot-refresh-socket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/throttle-impl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/throttle-impl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/co-impl/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-141-链表/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-142-链表/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-83-链表/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-83-链表/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,8 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -58,6 +60,10 @@
       <updated>1635845424962</updated>
       <workItem from="1635845426420" duration="915000" />
       <workItem from="1636360302690" duration="3501000" />
+      <workItem from="1636371942204" duration="6868000" />
+      <workItem from="1636411731020" duration="613000" />
+      <workItem from="1636423488902" duration="7228000" />
+      <workItem from="1636440432956" duration="678000" />
     </task>
     <servers />
   </component>
@@ -74,5 +80,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
