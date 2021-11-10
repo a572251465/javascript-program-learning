@@ -5,6 +5,7 @@
   "author": "lihaohao <2495041749@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.0.1"
+    "eslint": "^8.0.1",
+    "prettier": "^2.4.1"
   }
 }

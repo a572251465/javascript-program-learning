@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd3b51a8-a16d-4a0a-9f09-a6883d04d891" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/co-impl/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode-141-链表/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode-142-链表/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-206-链表/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-61-链表/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-92-链表/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-92-链表/index1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/函数柯里化-impl/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-83-链表/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-83-链表/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +38,27 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.index.js (3)">
+    <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/co-impl/index.js" working-dir="$PROJECT_DIR$/co-impl">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/object.create-impl/index.js" working-dir="$PROJECT_DIR$/object.create-impl">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/函数柯里化-impl/index.js" working-dir="$PROJECT_DIR$/函数柯里化-impl">
+      <method v="2" />
+    </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hasInstance-impl/index.js" working-dir="$PROJECT_DIR$/hasInstance-impl">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js (3)" />
+        <item itemvalue="Node.js.index.js (2)" />
+        <item itemvalue="Node.js.index.js (1)" />
         <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
@@ -63,7 +76,9 @@
       <workItem from="1636371942204" duration="6868000" />
       <workItem from="1636411731020" duration="613000" />
       <workItem from="1636423488902" duration="7228000" />
-      <workItem from="1636440432956" duration="678000" />
+      <workItem from="1636440432956" duration="12917000" />
+      <workItem from="1636461454286" duration="5068000" />
+      <workItem from="1636514098595" duration="3867000" />
     </task>
     <servers />
   </component>
