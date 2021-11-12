@@ -4,6 +4,9 @@
  *     this.val = (val===undefined ? 0 : val)
  *     this.next = (next===undefined ? null : next)
  * }
+ *
+ * 1 3 4
+ * 1 2 5
  */
 /**
  * @param {ListNode} head
