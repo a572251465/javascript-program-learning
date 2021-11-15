@@ -10,7 +10,7 @@
  * @param {ListNode} head
  * @return {boolean}
  */
-var hasCycle = function(head) {
+var hasCycle = function (head) {
   if (!head || !head.next) return false
 
   // 利用快慢指针  如果存在闭环，就一定会相遇的
@@ -25,4 +25,4 @@ var hasCycle = function(head) {
   }
 
   return false
-};
+}
