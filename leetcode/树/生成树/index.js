@@ -25,11 +25,11 @@ class Bst {
     while (current) {
       preNode = current
       diffVal = current.element - element
-      current = diffVal < 0 ? current.left : current.right
+      current = diffVal > 0 ? current.left : current.right
     }
 
     const node = new Node(element, preNode)
-    preNode[diffVal < 0 ? 'left' : 'right'] = node
+    preNode[diffVal > 0 ? 'left' : 'right'] = node
   }
 
   // 前序遍历
@@ -78,6 +78,19 @@ class Bst {
       cb(curr)
     }
   }
+
+  exchange() {
+    function traversal(node) {
+      if (!node) return
+
+      const temp = node.right
+      node.right = node.left
+      node.left = temp
+      traversal(node.left)
+      traversal(node.right)
+    }
+    traversal(this.root)
+  }
 }
 
 const ll = new Bst()
@@ -87,3 +100,5 @@ const ll = new Bst()
 ll.innerTraversal((node) => {
   console.log(node.element)
 })
+// ll.exchange()
+console.dir(ll.root, { depth: Infinity })
