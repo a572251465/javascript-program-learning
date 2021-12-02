@@ -5,25 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd3b51a8-a16d-4a0a-9f09-a6883d04d891" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/树/100. 相同的树/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/101. 对称二叉树/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/104. 二叉树的最大深度/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/110. 平衡二叉树/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/111. 二叉树的最小深度/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/112. 路径总和/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/144. 二叉树的前序遍历/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/145. 二叉树的后序遍历/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/257. 二叉树的所有路径/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/257. 二叉树的所有路径/index1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/404. 左叶子之和/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/501. 二叉搜索树中的众数/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/700. 二叉搜索树中的搜索/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/700. 二叉搜索树中的搜索/index1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/94. 二叉树的中序遍历/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/二叉搜索树的最近公共祖先/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/二叉搜索树的最近公共祖先/index1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/队列/859. 亲密字符串/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/队列/933. 最近的请求次数/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/树/543. 二叉树的直径/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/树/559. N 叉树的最大深度/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/树/563. 二叉树的坡度/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/链表/1290. 二进制链表转整数/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/链表/剑指 Offer 24. 反转链表/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/链表/剑指 Offer 24. 反转链表/index1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/链表/剑指 Offer 25. 合并两个排序的链表/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/链表/剑指 Offer 52. 两个链表的第一个公共节点/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ts-learning" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -103,6 +92,14 @@
       <workItem from="1637877123779" duration="4361000" />
       <workItem from="1637889511078" duration="7626000" />
       <workItem from="1637970311593" duration="7289000" />
+      <workItem from="1638024111271" duration="3475000" />
+      <workItem from="1638056606064" duration="879000" />
+      <workItem from="1638058622261" duration="5378000" />
+      <workItem from="1638140372823" duration="1293000" />
+      <workItem from="1638272336635" duration="3792000" />
+      <workItem from="1638279602732" duration="1404000" />
+      <workItem from="1638312285331" duration="1845000" />
+      <workItem from="1638321638585" duration="1304000" />
     </task>
     <servers />
   </component>
