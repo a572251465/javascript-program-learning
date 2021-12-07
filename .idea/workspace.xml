@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd3b51a8-a16d-4a0a-9f09-a6883d04d891" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/树/543. 二叉树的直径/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/559. N 叉树的最大深度/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/树/563. 二叉树的坡度/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/链表/1290. 二进制链表转整数/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/链表/剑指 Offer 24. 反转链表/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/链表/剑指 Offer 24. 反转链表/index1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/链表/剑指 Offer 25. 合并两个排序的链表/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/链表/剑指 Offer 52. 两个链表的第一个公共节点/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/栈/面试题 03.04. 化栈为队.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,17 +28,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ts-learning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../css-leraning" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="ts.external.directory.path" value="D:\software\webstorm\WebStorm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.index.js (4)">
-    <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/co-impl/index.js" working-dir="$PROJECT_DIR$/co-impl">
+  <component name="RunManager" selected="Node.js.面试题 03.04. 化栈为队.js">
+    <configuration name="面试题 03.04. 化栈为队.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/栈/面试题 03.04. 化栈为队.js" working-dir="$PROJECT_DIR$/leetcode/栈">
+      <method v="2" />
+    </configuration>
+    <configuration name="20. 有效的括号.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/栈/20. 有效的括号.js" working-dir="$PROJECT_DIR$/leetcode/栈">
       <method v="2" />
     </configuration>
     <configuration name="index.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/object.create-impl/index.js" working-dir="$PROJECT_DIR$/object.create-impl">
@@ -57,16 +54,13 @@
     <configuration name="index.js (4)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/队列/859. 亲密字符串/index.js" working-dir="$PROJECT_DIR$/leetcode/队列/859. 亲密字符串">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hasInstance-impl/index.js" working-dir="$PROJECT_DIR$/hasInstance-impl">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.面试题 03.04. 化栈为队.js" />
+        <item itemvalue="Node.js.20. 有效的括号.js" />
         <item itemvalue="Node.js.index.js (4)" />
         <item itemvalue="Node.js.index.js (3)" />
         <item itemvalue="Node.js.index.js (2)" />
-        <item itemvalue="Node.js.index.js (1)" />
-        <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +94,10 @@
       <workItem from="1638279602732" duration="1404000" />
       <workItem from="1638312285331" duration="1845000" />
       <workItem from="1638321638585" duration="1304000" />
+      <workItem from="1638691811025" duration="1868000" />
+      <workItem from="1638742884803" duration="623000" />
+      <workItem from="1638754472371" duration="4418000" />
+      <workItem from="1638796690109" duration="969000" />
     </task>
     <servers />
   </component>
