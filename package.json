@@ -5,7 +5,8 @@
   "author": "lihaohao <2495041749@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.0.1",
+    "eslint": "^8.4.1",
     "prettier": "^2.4.1"
-  }
+  },
+  "repository": "https://github.com/a572251465/javascript-program-learning.git"
 }
