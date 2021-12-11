@@ -26,7 +26,7 @@ function fn2() {
   })
   return double.concat(other)
 }
-// console.log(fn2())
+console.log(fn2())
 
 // 4. 通过filer来实现
 function fn3() {
@@ -34,4 +34,4 @@ function fn3() {
     return arr.indexOf(item) === index
   })
 }
-console.log(fn3())
+// console.log(fn3())
