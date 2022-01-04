@@ -1,0 +1,17 @@
+{
+  "name": "dll-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dll": "webpack --config build/webpack.dll.config.js",
+    "build": "webpack --config build/webpack.config.js"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "is-promise": "^4.0.0",
+    "isarray": "^2.0.5",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
