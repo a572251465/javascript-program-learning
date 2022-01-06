@@ -12,3 +12,4 @@ const list = strList
   .split('')
   .sort((a, b) => sortObj[a] - sortObj[b])
   .join('')
+console.log(list)
