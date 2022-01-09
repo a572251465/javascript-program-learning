@@ -21,3 +21,6 @@ console.log(str.replace(/^\s*([\S\s]*?)\s*$/gi, '$1'))
 
 // 方法5 使用了非捕获分组，将中间部分进行捕获
 console.log(str.replace(/^\s*(\S*(?:\s+\S+)*)\s*$/gi, '$1'))
+
+// 方法6
+console.log(str.replace(/^\s*([\d\D]*?)\s*$/, '$1'))
