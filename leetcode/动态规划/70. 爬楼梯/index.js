@@ -1,8 +1,9 @@
 /**
  * @param {number} n
+ * @param memo
  * @return {number}
  */
-var climbStairs = function (n, memo = {}) {
+const climbStairs = function (n, memo = {}) {
   // base
   if (n <= 2) return n
   if (memo[n]) return memo[n]
