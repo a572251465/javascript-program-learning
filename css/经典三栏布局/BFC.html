@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>通过BFC来实现</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      html, body {
+        height: 100%;
+      }
+
+      .outer {
+        height: 100%;
+      }
+
+      .left {
+        width: 200px;
+        height: 100%;
+        float: left;
+        background: red;
+      }
+
+      .right {
+        width: 200px;
+        height: 100%;
+        float: left;
+        background: green;
+      }
+
+      .middle {
+        height: 100%;
+        background: blue;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="left">left</div>
+      <div class="right">right</div>
+      <div class="middle">middle</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex实现三栏布局</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .outer {
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .left,
+      .right,
+      .middle {
+        height: 100%;
+      }
+
+      .left,
+      .right {
+        width: 200px;
+        background: red;
+      }
+
+      .middle {
+        flex: 1;
+        background: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="left">left</div>
+      <div class="middle">middle</div>
+      <div class="right">right</div>
+    </div>
+  </body>
+</html>
