@@ -8,7 +8,9 @@ var maxProfit = function (prices) {
     i = 1
 
   for (; i < prices.length; i += 1) {
+    // 对于值来说  谁小留谁
     pre = Math.min(pre, prices[i])
+    // 对于差值来说  谁大留谁
     diff = Math.max(diff, prices[i] - pre)
   }
 
