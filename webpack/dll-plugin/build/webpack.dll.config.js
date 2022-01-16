@@ -1,8 +1,6 @@
 const path = require('path')
 const { DllPlugin } = require('webpack')
-
 const pathResolve = (url) => path.resolve(__dirname, url)
-
 module.exports = {
   mode: 'development',
   entry: {
