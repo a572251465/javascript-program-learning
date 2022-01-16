@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>实现自定义事件</title>
+  </head>
+  <body>
+    <script>
+      const myEvent = new Event('event_name')
+
+      const myEvent1 = new CustomEvent('event_name1', {
+        detail: 'test'
+      })
+
+      window.addEventListener('event_name1', function () {
+        console.log(event.detail)
+      })
+
+      window.dispatchEvent(myEvent1)
+    </script>
+  </body>
+</html>
