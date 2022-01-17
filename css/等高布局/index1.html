@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>等高布局 - padding，margin</title>
+    <style>
+      .outer {
+        overflow: hidden;
+      }
+
+      .left,
+      .right,
+      .middle {
+        float: left;
+        padding-bottom: 9999px;
+        margin-bottom: -9999px;
+      }
+
+      .left,
+      .right {
+        width: 25%;
+        background: red;
+      }
+
+      .middle {
+        width: 50%;
+        background: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="left">
+        <div>11</div>
+        <div>22</div>
+      </div>
+      <div class="middle">1</div>
+      <div class="right">2</div>
+    </div>
+  </body>
+</html>
