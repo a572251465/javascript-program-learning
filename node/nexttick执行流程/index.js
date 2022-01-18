@@ -30,6 +30,15 @@ fs.readFile(path.resolve(__dirname, '../koa2洋葱模型/index.js'), {encoding: 
     })
     console.log('setImmediate1')
   })
+  process.nextTick(() => {
+    console.log('nextTick 随机')
+  })
+  setImmediate(() => {
+    console.log('setImmediate2')
+  })
+  Promise.resolve().then(() => {
+    console.log('Promise 随机')
+  })
 })
 
 process.nextTick(() => {
