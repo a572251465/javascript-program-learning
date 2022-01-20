@@ -3,8 +3,8 @@ Array.prototype.shuffle = function () {
   let len = self.length,
     i
   while (len) {
-    i = Math.floor(Math.random() * len--);
-    [self[len], self[i]] = [self[i], self[len]]
+    i = Math.floor(Math.random() * len--)
+    ;[self[len], self[i]] = [self[i], self[len]]
   }
   return self
 }
