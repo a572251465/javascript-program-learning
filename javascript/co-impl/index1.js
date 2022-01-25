@@ -28,6 +28,6 @@ function co(iterator) {
   })
 }
 
-co(iterator).then(res => {
+co(iterator).then((res) => {
   console.log(res)
 })

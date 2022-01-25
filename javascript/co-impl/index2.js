@@ -14,14 +14,11 @@ const iterator = function* iterator() {
   return temp
 }
 
-// co库 传递一个生成器函数进去其中
-const co = function co(iterator) {
-  // 执行生成器函数  得到一个生成器对象
-  const it = iterator()
-  // 返回一个promise
+function co(iterator) {
   return new Promise((resolve) => {
-    const next = function (val) {
-      // 执行生成器函数
+    const it = iterator()
+
+    function next(val) {
       const { value, done } = it.next(val)
       if (done) {
         resolve(value)
@@ -29,7 +26,6 @@ const co = function co(iterator) {
         next(value)
       }
     }
-
     next()
   })
 }
