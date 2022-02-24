@@ -7,7 +7,7 @@ function bubbleSort(arr = []) {
       const cur = arr[j],
         next = arr[j + 1]
 
-      if (cur > next) [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]
+      if (cur < next) [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]
     }
   }
 
