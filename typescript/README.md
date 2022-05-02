@@ -20,3 +20,6 @@ let d: string = new String('4') // ×
   let test1: never = fn()
   let a: number = test1
 ```
+
+- 练习地址
+`https://gitee.com/martsforever-study/typescript-practice/tree/master/exercises`
