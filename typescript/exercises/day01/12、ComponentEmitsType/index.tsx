@@ -1,4 +1,4 @@
-import CamelCase from '../10、CamelCase/index';
+import CamelCase from '../10、CamelCase';
 
 type Source = {
   'Handle-open': (flag: boolean) => true,
