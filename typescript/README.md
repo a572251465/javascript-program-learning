@@ -23,3 +23,5 @@ let d: string = new String('4') // ×
 
 - 练习地址
 `https://gitee.com/martsforever-study/typescript-practice/tree/master/exercises`
+
+`https://github.com/semlinker/awesome-typescript/issues`
