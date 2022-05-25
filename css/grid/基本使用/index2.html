@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid基本使用</title>
+    <style>
+      .container {
+        display: grid;
+        width: 300px;
+        height: 300px;
+
+        /* 如果觉得重复写太麻烦 可以使用repeat */
+        grid-template-rows: repeat(3, 33.33%);
+        grid-template-columns: repeat(3, 33.33%);
+      }
+
+      .container div {
+        text-align: center;
+        line-height: 1;
+        /* 设置grid布局后 内部的float等全部失效了 */
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+    </div>
+  </body>
+</html>

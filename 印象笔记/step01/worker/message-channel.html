@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>message channel</title>
+  </head>
+  <body>
+    <script>
+      const channel = new MessageChannel()
+      const worker = new Worker('./work1.js')
+      worker.postMessage(null, [channel.port1])
+
+      channel.port2.onmessage = ({ data }) => console.log(data)
+      channel.port2.postMessage(5)
+    </script>
+  </body>
 </html>

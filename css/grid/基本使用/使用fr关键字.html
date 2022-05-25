@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid基本使用</title>
+    <style>
+      .container {
+        display: grid;
+        color: #ffffff;
+        width: 300px;
+        font-size: 4em;
+
+        /* 为了方便表示比例关系，网格布局提供了fr关键字 如果两列的宽度分别为1fr和2fr，就表示后者是前者的两倍*/
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: repeat(auto-fill, 100px);
+      }
+
+      .container div:nth-child(2n + 1) {
+        background: red;
+      }
+
+      .container div:nth-child(2n + 2) {
+        background: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+      <div>9</div>
+    </div>
+  </body>
+</html>

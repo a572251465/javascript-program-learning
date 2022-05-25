@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script>
+  // const worker = new Worker('http://10.100.31.165/online/assetFiles/index.c5fc1cc7.js') 专用线程必须是同源的
+  const worker = new Worker('./wokers.js')
+  // console.log(worker)
+  // worker.addEventListener('message', (data) => {
+  //   console.log(data)
+  // })
+  worker.postMessage('test')
+</script>
+</body>
+</html>
