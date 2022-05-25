@@ -10,6 +10,7 @@
         display: grid;
         width: 300px;
         height: 300px;
+        color: #fff;
 
         /* 如果觉得重复写太麻烦 可以使用repeat */
         grid-template-rows: repeat(3, 33.33%);
@@ -21,6 +22,13 @@
         line-height: 1;
         /* 设置grid布局后 内部的float等全部失效了 */
         float: right;
+      }
+
+      .container div:nth-child(2n + 1) {
+        background: #f00;
+      }
+      .container div:nth-child(2n + 2) {
+        background: #0f0;
       }
     </style>
   </head>

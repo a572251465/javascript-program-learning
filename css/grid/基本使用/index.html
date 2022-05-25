@@ -8,6 +8,8 @@
     <style>
       .container {
         display: grid;
+        color: #fff;
+
         grid-template-rows: 100px 100px 100px;
         grid-template-columns: 100px 100px 100px;
       }
@@ -15,8 +17,17 @@
       .container div {
         text-align: center;
         line-height: 1;
+
         /* 设置grid布局后 内部的float等全部失效了 */
         float: right;
+      }
+
+      .container div:nth-child(2n + 1) {
+        background: red;
+      }
+
+      .container div:nth-child(2n + 2) {
+        background: black;
       }
     </style>
   </head>

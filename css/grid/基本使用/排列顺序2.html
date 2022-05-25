@@ -9,16 +9,16 @@
       .container {
         display: grid;
         color: #ffffff;
-        font-size: 4em;
 
-        grid-template-columns: 100px 100px 100px;
-        grid-template-rows: 100px 100px 100px;
+        grid-template-rows: repeat(3, 100px);
+        grid-template-columns: repeat(3, 100px);
+        /* 设为row dense，表示"先行后列"，并且尽可能紧密填满，尽量不出现空格。 */
+        grid-auto-flow: row;
+      }
 
-        /* 设置网格的对其方式 */
-        /* justify-items: center;
-        align-items: center; */
-
-        place-items: center center;
+      .row {
+        grid-column-start: 1;
+        grid-column-end: 3;
       }
 
       .container div:nth-child(2n + 1) {
@@ -32,8 +32,8 @@
   </head>
   <body>
     <div class="container">
-      <div>1</div>
-      <div>2</div>
+      <div class="row">1</div>
+      <div class="row">2</div>
       <div>3</div>
       <div>4</div>
       <div>5</div>
