@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="app"></canvas>
+    <script>
+      const app = document.getElementById('app')
+      if (app.getContext) {
+        const ctx = app.getContext('2d')
+        ctx.strokeStyle = '#ff0000'
+        ctx.strokeRect(10, 10, 50, 50)
+        ctx.strokeStyle = 'rgba(0,0,255,0.5)'
+        ctx.strokeRect(30, 30, 50, 50)
+      }
+    </script>
+  </body>
+</html>

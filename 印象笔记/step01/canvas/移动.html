@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="app"></canvas>
+    <script>
+      const app = document.getElementById('app')
+      if (app.getContext) {
+        const ctx = app.getContext('2d')
+
+        // 创建路径
+        ctx.beginPath()
+
+        // 绘制外圈
+        ctx.arc(100, 100, 99, 0, 2 * Math.PI)
+
+        // 绘制内圈
+        ctx.moveTo(194, 100)
+        ctx.arc(100, 100, 94, 0, 2 * Math.PI)
+
+        // 移动原点到表盘中心
+        ctx.translate(100, 100)
+
+        // 绘制分钟
+        ctx.moveTo(0, 0)
+        ctx.lineTo(0, -85)
+
+        // 绘制时钟
+        ctx.moveTo(0, 0)
+        ctx.lineTo(-65, 0)
+
+        ctx.stroke()
+      }
+    </script>
+  </body>
+</html>
