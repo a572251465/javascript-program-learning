@@ -1,0 +1,15 @@
+{
+  "name": "layout-shake",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "fastdom": "^1.0.10",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  }
+}
