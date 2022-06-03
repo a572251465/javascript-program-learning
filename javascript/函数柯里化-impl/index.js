@@ -22,4 +22,4 @@ const add = function add(...args) {
   }
   return fn
 }
-console.log(add(1)(2, 3, 4)(5, 6)(4, 9)(10))
+alert(add(1)(2, 3, 4)(5, 6)(4, 9)(10))
