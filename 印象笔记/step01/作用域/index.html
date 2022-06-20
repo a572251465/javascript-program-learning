@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function a() {
+        const test = 'a'
+        function b() {
+          console.log(test)
+          const test1 = 'c'
+          console.dir(b)
+          function c() {
+            console.log(test, test1)
+            console.dir(c)
+          }
+          c()
+        }
+        b()
+      }
+      a()
+    </script>
+  </body>
+</html>

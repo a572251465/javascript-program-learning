@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MessageChannel</title>
+  </head>
+  <body>
+    <script>
+      const channel = new MessageChannel()
+      const { port1, port2 } = channel
+
+      port1.onmessage = function (e) {
+        console.log(`port1收到了来自port2的消息：${e.data}`)
+      }
+
+      port2.onmessage = function (e) {
+        console.log(`port2收到了来自port1的消息：${e.data}`)
+      }
+
+      port1.postMessage('port1发送的消息')
+      port2.postMessage('port2发送的消息')
+    </script>
+  </body>
+</html>
