@@ -1,0 +1,12 @@
+console.log(String(false)) // "false"
+console.log(String(true)) // "true"
+console.log(String(1)) // "1"
+console.log(String("1")) // "1"
+console.log(String(null)) // "null"
+console.log(String(undefined)) // "undefined"
+console.log(Symbol('a')) // "Symbol(a)"
+console.log(String(10n)) // "10"
+console.log(String({})) // "[object Object]"
+console.log(String([1])) // "1"
+console.log(String(() => {})) // "() => {}"
+
