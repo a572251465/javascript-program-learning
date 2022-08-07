@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>使用常规的手段进行移动</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .block {
+        position: fixed;
+        top: 100px;
+        left: 100px;
+        width: 100px;
+        height: 100px;
+        background: red;
+        color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+        line-height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block">测试下</div>
+    <script>
+      const el = document.querySelector('.block')
+      let left = el.offsetLeft
+      let count = 0
+      let timer = setInterval(() => {
+        if (count > 20) {
+          clearInterval(timer)
+          return
+        }
+        left += 10
+        el.style.left = `${left}px`
+        count++
+      }, 5)
+    </script>
+  </body>
+</html>
