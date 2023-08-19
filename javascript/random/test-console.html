@@ -10,17 +10,14 @@
     <title>Document</title>
   </head>
   <body>
-    <button id="btn">点击</button>
     <script>
-      window.name = 'test'
-      const obj1 = {
-        name: 'yyy',
-        getName: () => {
-          console.log(this.name)
-          console.log(this)
-        }
+      function runTest() {
+        requestAnimationFrame(() => {
+          console.log('疯狂log........................')
+          runTest()
+        })
       }
-      obj1.getName() // undefined
+      runTest()
     </script>
   </body>
 </html>

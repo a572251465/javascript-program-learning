@@ -1,0 +1,15 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "- string/ String学习点\r   - string是基本类型。 String是包装对象类型\r   - `string`是`String`的实例，所以可以赋值 `let b:String = '2'`. 但是返过来不能赋值\r ```ts\r let a: string = '1' // √\r let b: String = '2' // √",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

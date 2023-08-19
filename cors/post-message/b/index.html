@@ -10,17 +10,12 @@
     <title>Document</title>
   </head>
   <body>
-    <button id="btn">点击</button>
     <script>
-      window.name = 'test'
-      const obj1 = {
-        name: 'yyy',
-        getName: () => {
-          console.log(this.name)
-          console.log(this)
-        }
-      }
-      obj1.getName() // undefined
+      window.addEventListener('message', (event) => {
+        console.log('b.html 收到消息：' + event.data)
+
+        event.source.postMessage('hello world a.html', event.origin)
+      })
     </script>
   </body>
 </html>

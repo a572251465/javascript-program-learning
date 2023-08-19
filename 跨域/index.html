@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+          let xhr = new XMLHttpRequest();
+          xhr.open('GET', 'http://43.140.193.197/user.json', true);
+          xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+              console.log(xhr.responseText);
+            }
+          }
+          xhr.send();
+        }
+    </script>
+</head>
+<body>
+    <img src="http://43.140.193.197/webpack-import.png" alt="">
+</body>
+</html>

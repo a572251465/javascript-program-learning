@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <iframe src="http://localhost:9002/index.html" frameborder="0"></iframe>
+    <script>
+      const htmlScriptElement = document.querySelector('iframe')
+      const contentWindow = htmlScriptElement.contentWindow
+
+      setTimeout(() => {
+        contentWindow.postMessage('hello world b.html', 'http://localhost:9002')
+      }, 2000)
+
+      window.addEventListener('message', (event) => {
+        console.log('a.html 收到消息：' + event.data)
+      })
+    </script>
+  </body>
+</html>

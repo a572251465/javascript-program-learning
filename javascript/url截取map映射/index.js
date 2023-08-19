@@ -17,3 +17,5 @@ const queryParams = (url) => {
 }
 
 console.log(queryParams(url))
+
+

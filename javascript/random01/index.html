@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="./global.intercept.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      console.log('定时器1：' + +new Date())
+      setTimeout(() => {
+        console.log('定时器1执行了')
+        console.log('定时器1：' + +new Date())
+      }, 1000)
+
+      console.log('定时器2：' + +new Date())
+      setTimeout(() => {
+        console.log('定时器2执行了')
+        console.log('定时器2：' + +new Date())
+      }, 3000)
+
+      console.log('定时器3：' + +new Date())
+      setTimeout(() => {
+        console.log('定时器3执行了')
+        console.log('定时器3：' + +new Date())
+      }, 8000)
+
+      // setInterval(() => {
+      //   console.log('定时器4：' + +new Date())
+      // }, 1000)
+    </script>
+  </body>
+</html>

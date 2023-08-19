@@ -5,9 +5,13 @@
   "author": "lihaohao <2495041749@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^18.16.1",
     "eslint": "^8.4.1",
     "jquery": "^3.6.0",
     "prettier": "^2.4.1"
   },
-  "repository": "https://github.com/a572251465/javascript-program-learning.git"
+  "repository": "https://github.com/a572251465/javascript-program-learning.git",
+  "dependencies": {
+    "koa": "^2.14.1"
+  }
 }

@@ -1,16 +1,38 @@
-// function test<T>(a: T, b: T) {}
-
-// test(1, '1')
-// test('2', 2)
-// test(3, 3)
-
-function add(a: number, b: number): number
-function add(a: string, b: string): number
-function add(a: any, b: any): any {
-  if (typeof a === 'number') {
-    return a + b
-  }
-  return a - b
+export namespace A {
+  export class Dog {}
 }
 
-export default {}
+export namespace B {
+  export class Dog {}
+}
+
+console.log(A.Dog)
+console.log(B.Dog)
+
+// 合并类
+class Animal {
+  static b = 'cat'
+}
+namespace Animal {
+  export const a = 'dog'
+}
+
+console.log(Animal.a)
+
+// 方法合并
+function count(): number {
+  return count.counter++
+}
+namespace count {
+  export let counter: number = 0
+}
+
+enum Menu {
+  one
+}
+namespace Menu {
+  export let two = 1
+}
+
+
+export {}
