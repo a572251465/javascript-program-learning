@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button>点击打开新页面</button>
+    <script>
+        document.querySelector("button").addEventListener("click", () => {
+          const window1 = window.open("http://10.100.31.167/vagrant02", "_blank");
+          window1.addEventListener("unload", () => {
+            console.log("执行卸载了..")
+          })
+        })
+    </script>
+</body>
+</html>

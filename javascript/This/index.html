@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<button id="btn">点击按钮</button>
+<button id="btn01" onclick="click1()">再次点击按钮</button>
+<script>
+    const btn = document.getElementById("btn");
+    btn.onclick = function () {
+        // 此时的this 是button dom
+        console.log(this); // <button id="btn">点击</button>
+    };
+    btn.click();
+
+    function click1() {
+        // 此时的this 是window
+        console.log(this)
+    }
+</script>
+</body>
+</html>
